@@ -20,7 +20,7 @@
 
   <WebUI>http://[IP]:[PORT:8080]/cmk/</WebUI>
 
-  <Icon>https://checkmk.com/favicon.ico</Icon>
+  <Icon>https://dashboardicons.com/icons/checkmk.png</Icon>
 
   <!-- tmpfs only for the Checkmk tmp directory – required for correct startup -->
   <ExtraParams>--tmpfs /opt/omd/sites/cmk/tmp:uid=1000,gid=1000 --ulimit nofile=1024:1024</ExtraParams>
